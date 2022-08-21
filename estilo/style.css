@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+/*Tipos de fontes externas*/
+:root {
+    --cor: #e374a6de;
+    --cor: #AE75F4;
+    --cor: rgba(0, 0, 0, 0.397);
+}
+/*Deixa tanto as margens como os padding´s em 0px*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*Cor e espaçamento da paágina de fundo*/
+body {
+    background-color: #e374a6de;
+    text-align: center;
+    padding: 10px;
+}
+
+a.externo::after {
+    content: '\00A0\1F517';
+}
+/*Cabeçalho*/
+header {
+    min-width: 200px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+/*Vovó Docinho*/
+header > h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.397);
+}
+/*Histórias Infântis*/
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: white;
+    max-width: 600;
+    padding: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.397);
+}
+/*MENU, home, histórias, etc...*/
+nav {
+    /*Estilo de fonte dos menus*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*Cor de fundo do box dos menus*/
+    background-color: #AE75F4;
+    /*Espaçamento do box do menu*/
+    padding: 10px;
+    /*Tamanho da fonte do box do menu*/
+    font-size: 11px;
+    /*Arredondamento das bordas do menu*/
+    border-radius: 10px 10px 0px 0px;
+   
+}
+/*Arredondamento do menu e animação ao passar o mouser*/
+nav > a {
+    color: white;
+    padding: 3px;
+    /*border-radius: 5px;*/
+    text-decoration: none;
+    font-weight: normal;
+    transition-duration: .3s;
+}
+/*Fade dos menus*/
+nav > a:hover {
+    background-color: #e374a6de;
+    color: white;
+}
+main {
+    /*Configurações do box principal da página, deixa todos os conteúdos dentro do box, cor de fundo com transparencia, etc*/
+    color: white;
+    min-width: 400;
+    max-width: 800;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff42;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main h1 {
+    color: #AE75F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Degrade e textos e largura e altura do h1 e h2 */
+main h2 {
+    /*Fonte dos box h1 e h2*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*Cor das fontes dentro do box h1 e h2*/
+    color: white;
+    /*Tamanho das fontes dos box h1 e h2*/
+    font-size: 1em;
+    /*Largura das fontes dos box h1 e h2*/
+    font-weight: bold;
+    /*Cor de fundo dos box h1 e h2*/
+    background-color: #AE75F4;
+    /*Degrade dos box h1 e h2*/
+    /*background-image: linear-gradient(to right, #4e2085,transparent);*/
+    text-indent: 10px;
+    border-radius: 10px;
+    /*Espaço do box dos tiltulos principais, ex: fundador, personagens, etc...*/
+    padding: 20px;
+    /*Arredondamento dos box h1 e h2*/
+    border-radius: 10px 10px 10px 10px;
+    /*Sombra dos box h1 e h2*/
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.363);
+}
+/*Espaçamento, cor, fonte e estilo dos textos*/
+main p {
+    margin: 20px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1em;
+}
+/*Inicio das frases dos textos em blocos*/
+main strong {
+    color: #AE75F4;
+    font-weight: bold;
+}
+
+main image {
+    width: 100%;
+}
+
+main image.pequena {
+    max-width: 300px;
+    display: flex;
+    margin: auto;
+}
+/*Configurações do box do video*/
+div.video {
+    margin: 0px -10 20 -20;
+    padding: 20px;
+    padding-bottom: 400px;
+    position: relative;
+}
+/*Configurações do video*/
+div.video > iframe {
+    position: absolute;
+    top: 9%;
+    left: 5%;
+    width: 90%;
+    right: 70%;
+    display: block;
+}
+/*Entre em contato pelo nossos canais*/
+aside p {
+    /*Cor de fundo do box*/
+    background-color: #AE75F4;
+    /*Tamanho da fonte dentro do box*/
+    font-size: 1em;
+    /*Cor da fonte dentro do box*/
+    color: white;
+    /*Fonte usada dentro do box*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*Alinhamento da fonte dentro do box*/
+    text-align: center;
+    /*Espaçamento do box*/
+    padding: 20px;
+    /*Arredondamento do box*/
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.363);
+    /*Degrade do do box
+    background-image: linear-gradient(to right, #542d83,transparent);*/
+}
+/*Roda pé do site*/
+footer {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
+}
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
