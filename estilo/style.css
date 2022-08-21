@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Agent Orange';
+    src: url(../fontes/AGENTORANGE.TTF);
+}
+
+@font-face {
+    font-family: 'Blomster';
+    src: url(../fontes/Blomster.ttf);
+}
 /*Tipos de fontes externas*/
 :root {
     --cor: #e374a6de;
@@ -15,7 +24,6 @@
 body {
     background-color: #e374a6de;
     text-align: center;
-    padding: 10px;
 }
 
 a.externo::after {
@@ -31,19 +39,19 @@ header {
 /*Vovó Docinho*/
 header > h1 {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3em;
+    font-family: 'Blomster',Arial, Helvetica, sans-serif;
+    font-size: 4em;
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.397);
 }
 /*Histórias Infântis*/
 header > p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Agent Orange',Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     color: white;
     max-width: 600;
-    padding: 20px;
+    padding: 30px;
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
@@ -58,7 +66,7 @@ nav {
     /*Espaçamento do box do menu*/
     padding: 10px;
     /*Tamanho da fonte do box do menu*/
-    font-size: 11px;
+    font-size: 10px;
     /*Arredondamento das bordas do menu*/
     border-radius: 10px 10px 0px 0px;
    
@@ -79,25 +87,28 @@ nav > a:hover {
 }
 main {
     /*Configurações do box principal da página, deixa todos os conteúdos dentro do box, cor de fundo com transparencia, etc*/
-    color: white;
+    color: rgb(109, 109, 109);
     min-width: 400;
     max-width: 800;
     margin: auto;
     margin-bottom: 10px;
-    padding: 10px;
-    background-color: #ffffff42;
+    padding: 20px;
+    background-color: #ffffff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+/*TEXTO PROJETO*/
 main h1 {
     color: #AE75F4;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Agent Orange', Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-size: 40px;
 }
 /*Degrade e textos e largura e altura do h1 e h2 */
 main h2 {
     /*Fonte dos box h1 e h2*/
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Agent Orange', Arial, Helvetica, sans-serif;
     /*Cor das fontes dentro do box h1 e h2*/
     color: white;
     /*Tamanho das fontes dos box h1 e h2*/
@@ -109,9 +120,10 @@ main h2 {
     /*Degrade dos box h1 e h2*/
     /*background-image: linear-gradient(to right, #4e2085,transparent);*/
     text-indent: 10px;
+    text-align: center;
     border-radius: 10px;
     /*Espaço do box dos tiltulos principais, ex: fundador, personagens, etc...*/
-    padding: 20px;
+    padding: 15px;
     /*Arredondamento dos box h1 e h2*/
     border-radius: 10px 10px 10px 10px;
     /*Sombra dos box h1 e h2*/
@@ -137,7 +149,7 @@ main image {
 
 main image.pequena {
     max-width: 300px;
-    display: flex;
+    display: block;
     margin: auto;
 }
 /*Configurações do box do video*/
@@ -153,7 +165,7 @@ div.video > iframe {
     top: 9%;
     left: 5%;
     width: 90%;
-    right: 70%;
+    right: 90%;
     display: block;
 }
 /*Entre em contato pelo nossos canais*/
@@ -179,9 +191,9 @@ aside p {
 /*Roda pé do site*/
 footer {
     color: white;
-    font-size: 14px;
+    font-size: 10px;
+    padding-bottom: 10px;
     text-align: center;
-    padding-top: 15px;
     text-decoration: none;
 }
 footer a {
