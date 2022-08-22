@@ -147,7 +147,7 @@ main strong {
 }
 
 main image {
-    width: 350px;
+    width: 320px;
 }
 
 main image.pequena {
@@ -159,9 +159,9 @@ main image.pequena {
 main iframe {
     border: 10px solid #AE75F4;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.473);
-    width: 350px;
+    width: 330px;
     height: 210px;
-    padding: 1px;
+    padding: 0.5px;
 }
 /*Configurações do box do video
 div.video {
