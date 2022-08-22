@@ -147,7 +147,7 @@ main strong {
 }
 
 main image {
-    width: 100%;
+    width: 350px;
 }
 
 main image.pequena {
@@ -159,7 +159,7 @@ main image.pequena {
 main iframe {
     border: 10px solid #AE75F4;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.473);
-    width: 440px;
+    width: 350px;
     height: 210px;
     padding: 1px;
 }
