@@ -51,7 +51,7 @@ header > p {
     font-size: 1.2em;
     color: white;
     max-width: 600;
-    padding: 30px;
+    padding: 20px;
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
@@ -64,9 +64,9 @@ nav {
     /*Cor de fundo do box dos menus*/
     background-color: #AE75F4;
     /*Espaçamento do box do menu*/
-    padding: 10px;
+    padding: 8px;
     /*Tamanho da fonte do box do menu*/
-    font-size: 14px;
+    font-size: 13px;
     /*Arredondamento das bordas do menu*/
     border-radius: 10px 10px 0px 0px;
    
@@ -154,14 +154,20 @@ main image.pequena {
     display: flex;
     margin: auto;
 }
-/*Configurações do box do video*/
+
+main iframe {
+    width: 450px;
+    padding: 5px;
+    margin: auto;
+}
+/*Configurações do box do video
 div.video {
     margin: 0px -10 20 -20;
     padding: 20px;
     padding-bottom: 400px;
     position: relative;
 }
-/*Configurações do video*/
+Configurações do video
 div.video > iframe {
     position: absolute;
     width: auto;
@@ -169,6 +175,7 @@ div.video > iframe {
     width: 90%;
     display: block;
 }
+*/
 /*Entre em contato pelo nossos canais*/
 aside p {
     /*Cor de fundo do box*/
