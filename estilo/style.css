@@ -88,7 +88,7 @@ nav > a:hover {
 main {
     /*Configurações do box principal da página, deixa todos os conteúdos dentro do box, cor de fundo com transparencia, etc*/
     color: rgb(109, 109, 109);
-    min-width: 200;
+    min-width: 300;
     max-width: 500;
     margin: auto;
     margin-bottom: 10px;
@@ -164,10 +164,9 @@ div.video {
 /*Configurações do video*/
 div.video > iframe {
     position: absolute;
-    top: 9%;
+    width: auto;
     left: 5%;
     width: 90%;
-    right: 90%;
     display: block;
 }
 /*Entre em contato pelo nossos canais*/
