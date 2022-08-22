@@ -15,11 +15,12 @@
     --cor: #AE75F4;
     --cor: rgba(0, 0, 0, 0.397);
 }
-/*Deixa tanto as margens como os padding´s em 0px*/
+/*Deixa tanto as margens como os padding´s em 0px
 * {
     margin: 0px;
     padding: 0px;
 }
+*/
 /*Cor e espaçamento da paágina de fundo*/
 body {
     background-color: #e374a6de;
@@ -87,13 +88,13 @@ nav > a:hover {
     color: white;
 }
 main {
-    /*Configurações do box principal da página, deixa todos os conteúdos dentro do box, cor de fundo com transparencia, etc*/
+    /*Configurações do box principal da página, deixa todos os conteúdos dentro do box, cor de fundo com transparencia, cor do texto, etc*/
     color: rgb(109, 109, 109);
     min-width: 200;
     max-width: 200;
     margin: auto;
-    margin-bottom: 10px;
-    padding: 1px;
+    margin-bottom: 20px;
+    padding: 30px;
     background-color: #ffffff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
     border-bottom-left-radius: 10px;
@@ -147,12 +148,11 @@ main strong {
 }
 
 main image {
-    width: 320px;
+    width: 100%;
 }
 
 main image.pequena {
     max-width: 200px;
-    margin: auto;
 }
 
 main iframe {
