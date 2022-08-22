@@ -120,8 +120,8 @@ main h2 {
     /*Degrade dos box h1 e h2*/
     /*background-image: linear-gradient(to right, #4e2085,transparent);*/
     text-indent: 10px;
+    /*Deixa o texto alinhado no centro*/
     text-align: center;
-    border-radius: 10px;
     /*Espaço do box dos tiltulos principais, ex: fundador, personagens, etc...*/
     padding: 15px;
     /*Arredondamento dos box h1 e h2*/
@@ -148,8 +148,7 @@ main image {
 }
 
 main image.pequena {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
     display: block;
     margin: auto;
 }
@@ -175,10 +174,12 @@ aside p {
     background-color: #AE75F4;
     /*Tamanho da fonte dentro do box*/
     font-size: 1em;
+    /*Volume para a fonte, deixa fonte mais grossa*/
+    font-weight: bold;
     /*Cor da fonte dentro do box*/
     color: white;
     /*Fonte usada dentro do box*/
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Agent Orange', Arial, Helvetica, sans-serif;
     /*Alinhamento da fonte dentro do box*/
     text-align: center;
     /*Espaçamento do box*/
