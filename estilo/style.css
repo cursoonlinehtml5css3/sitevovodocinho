@@ -46,8 +46,7 @@ header > p {
     font-family: 'Agent Orange',Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     color: white;
-    max-width: 600;
-    padding: 30px;
+    padding: 20px;
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
@@ -86,7 +85,7 @@ main {
     color: rgb(109, 109, 109);
     margin: auto;
     margin-bottom: 10px;
-    padding: 30px;
+    padding: 5px;
     background-color: #ffffff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
     border-bottom-left-radius: 10px;
@@ -170,8 +169,8 @@ aside p {
 /*Roda pé do site*/
 footer {
     color: white;
-    font-size: 10px;
-    padding-bottom: 10px;
+    font-size: 15px;
+    padding-bottom: 5px;
     text-align: center;
     text-decoration: none;
 }
