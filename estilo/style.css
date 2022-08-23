@@ -107,8 +107,6 @@ main h2 {
     font-weight: bold;
     /*Cor de fundo dos box h1 e h2*/
     background-color: #AE75F4;
-
-    text-indent: 20px;
     /*Deixa o texto alinhado no centro*/
     text-align: center;
     /*Arredondamento das bosrdas do box*/
@@ -135,9 +133,9 @@ main strong {
 main iframe {
     border: 10px solid #AE75F4;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.473);
-    width: 320px;
+    width: 370px;
     height: 200px;
-    padding: 0.5px;
+    padding: 1px;
 }
 
 /*Entre em contato pelo nossos canais*/
