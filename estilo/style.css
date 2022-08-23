@@ -133,9 +133,8 @@ main strong {
 main iframe {
     border: 10px solid #AE75F4;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.473);
-    width: 370px;
-    height: 200px;
-    padding: 1px;
+    width: 350px;
+    height: 230px;
 }
 
 /*Entre em contato pelo nossos canais*/
@@ -143,7 +142,7 @@ aside p {
     /*Cor de fundo do box*/
     background-color: #AE75F4;
     /*Tamanho da fonte dentro do box*/
-    font-size: 1em;
+    font-size: .9em;
     /*Volume para a fonte, deixa fonte mais grossa*/
     font-weight: bold;
     /*Cor da fonte dentro do box*/
@@ -153,7 +152,7 @@ aside p {
     /*Alinhamento da fonte dentro do box*/
     text-align: center;
     /*Espaçamento do box*/
-    padding: 20px;
+    padding: 15px;
     /*Arredondamento do box*/
     border-radius: 10px 10px 10px 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.363);
