@@ -15,12 +15,7 @@
     --cor: #AE75F4;
     --cor: rgba(0, 0, 0, 0.397);
 }
-/*Deixa tanto as margens como os padding´s em 0px
-* {
-    margin: 0px;
-    padding: 0px;
-}
-*/
+
 /*Cor e espaçamento da paágina de fundo*/
 body {
     background-color: #e374a6de;
@@ -33,7 +28,6 @@ a.externo::after {
 /*Cabeçalho*/
 header {
     min-width: 200px;
-    padding-top: 20px;
     text-align: center;
     font-size: 20px;
 }
@@ -68,7 +62,7 @@ nav {
     /*Espaçamento do box do menu*/
     padding: 8px;
     /*Tamanho da fonte do box do menu*/
-    font-size: 13px;
+    font-size: 12px;
     /*Arredondamento das bordas do menu*/
     border-radius: 10px 10px 0px 0px;
    
@@ -162,22 +156,7 @@ main iframe {
     height: 200px;
     padding: 0.5px;
 }
-/*Configurações do box do video
-div.video {
-    margin: 0px -10 20 -20;
-    padding: 20px;
-    padding-bottom: 400px;
-    position: relative;
-}
-Configurações do video
-div.video > iframe {
-    position: absolute;
-    width: auto;
-    left: 5%;
-    width: 90%;
-    display: block;
-}
-*/
+
 /*Entre em contato pelo nossos canais*/
 aside p {
     /*Cor de fundo do box*/
@@ -197,8 +176,6 @@ aside p {
     /*Arredondamento do box*/
     border-radius: 10px 10px 10px 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.363);
-    /*Degrade do do box
-    background-image: linear-gradient(to right, #542d83,transparent);*/
 }
 /*Roda pé do site*/
 footer {
