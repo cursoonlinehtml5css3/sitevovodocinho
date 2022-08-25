@@ -138,10 +138,12 @@ main iframe {
 }
 
 p.person {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 ul.person {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
 }
 
