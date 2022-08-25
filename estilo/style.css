@@ -137,6 +137,14 @@ main iframe {
     height: 200px;
 }
 
+p.person {
+    text-align: center;
+}
+
+ul.person {
+    text-align: left;
+}
+
 /*Entre em contato pelo nossos canais*/
 aside p {
     /*Cor de fundo do box*/
